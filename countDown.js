@@ -24,7 +24,6 @@ function countDown(){
 
 function formatoTempo(tempo){
     return tempo < 10? `0`&{tempo} : tempo
-
 }
 
 countDown()

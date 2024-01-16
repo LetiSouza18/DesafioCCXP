@@ -48,20 +48,48 @@
         <div>
             <p>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
             <div id="imagens">
-                <img src="img/qui.svg" width="170px" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta">
-                <img src="img/sex.svg" width="170px" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta">
-                <img src="img/sab.svg" width="170px" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado">
-                <img src="img/dom.svg" width="170px" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id="domingo">
+                <img src="img/qui.svg" 
+                width="170px" 
+                onmouseover="highlightCard('#quinta')" 
+                onmouseout="highlightCard('#quinta')" 
+                id="quinta"
+                class="cards-ingressos"
+                onclick="selectCard('#quinta')"
+                />
+                <img src="img/sex.svg" 
+                width="170px" 
+                onmouseover="highlightCard('#sexta')" 
+                onmouseout="highlightCard('#sexta')" 
+                id="sexta"
+                class="cards-ingressos"
+                onclick="selectCard('#sexta')"
+                />
+                <img src="img/sab.svg" 
+                width="170px" 
+                onmouseover="highlightCard('#sabado')" 
+                onmouseout="highlightCard('#sabado')" 
+                id="sabado"
+                class="cards-ingressos"
+                onclick="selectCard('#sabado')"
+                />
+                <img src="img/dom.svg" 
+                width="170px" 
+                onmouseover="highlightCard('#domingo')" 
+                onmouseout="highlightCard('#domingo')" 
+                id="domingo"
+                class="cards-ingressos"
+                onclick="selectCard('#domingo')"
+                />
             </div>
         </div>
         <div>
-            <button>GARANTA O SEU!</button>
+            <button onclick="showSelectedCards()">GARANTA O SEU!</button>
         </div>
     </section>
     <img>
     <br>
     
 </body>
-<script src="ccxp.js"></script>
+<script src="countDown.js"></script>
 <script src="main.js"></script>
 </html>
