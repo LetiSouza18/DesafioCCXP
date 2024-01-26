@@ -3,14 +3,16 @@ body{
     margin: 0px;
 }
 header{
+    top:0;
+    left: 0;
     background-color: #FFD900;
     width: auto;
     height: 60px;
     padding: 25px 0px 5px 40px;
 }
 #sec1{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    justify-content: space-between;
 }
 #countDown{
     display: grid;
@@ -24,15 +26,17 @@ header{
 }
 #Introducao{
     background-color: #514988;
-    padding: 25px 30px 45px 30px;
+    width: 40%;
+    padding: 25px 60px 45px 60px;
     text-align: center;
 }
+
 #tituloInt{
     color: #F3C61F;
     font-size: 55px;
     font-weight: 700;
-    margin-bottom: 0%;
-    margin-top: 0%;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 #textoInt{
     color: #FFF;
@@ -74,7 +78,7 @@ button{
         color:#F3C61F;
     }
 #Timer{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 #subtituloTimer{
     color: #E33881;
