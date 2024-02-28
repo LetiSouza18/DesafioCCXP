@@ -12,7 +12,7 @@ header{
 }
 #sec1{
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 #countDown{
     display: grid;
@@ -22,7 +22,7 @@ header{
     font-weight: 700;
     height: 80px;
     width: 200px;
-    margin-left: 20px;
+    padding-left: 10%;
 }
 #Introducao{
     background-color: #514988;
@@ -51,6 +51,10 @@ header{
     padding-bottom: 25px;
 }
 
+video{
+    padding-left: 10%;
+}
+
 #sec2{
     display: grid;
     grid-auto-flow: column;
@@ -77,16 +81,14 @@ button{
         cursor: pointer;
         color:#F3C61F;
     }
-#Timer{
-    margin-left: 0px;
-}
+
 #subtituloTimer{
     color: #E33881;
     font-size: 24px;
     font-weight: 700;
     margin-top: 5px;
     text-align: left;
-    margin-left: 20px;
+    padding-left: 10%;
 }
 #imagens{
     margin-left: 70px;
@@ -108,7 +110,7 @@ input{
     color: #FFF;
     border: 0pt;
     margin: 25px;
-    width: 320px;
+    width: 400px;
     height: 55px;
     font-size: 25px;
 }
